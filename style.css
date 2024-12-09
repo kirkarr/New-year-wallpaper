@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'Minecraft';
+	src: url('minecraft.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+html {
+	overflow: hidden;
+	background-color: black;
+}
+.block {
+	z-index: -10;
+	position: absolute;
+	display: block;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 50px;
+	font-family:'Minecraft';
+}
+.titlebox {
+	z-index: 1;
+	width: 100%;
+	top: 50%;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	vertical-align: middle;
+	pointer-events: none;
+}
+.title {
+	text-align: center;
+	font-size: 50px;
+	vertical-align: middle;
+	pointer-events: none;
+	color: white;
+	font-family:'Minecraft';
+}
+.subtitle {
+	text-align: center;
+	font-size: 25px;
+	vertical-align: middle;
+	pointer-events: none;
+	color: white;
+	font-family:'Minecraft';
+	padding-top: 0px; 
+	margin-top: 0px;
+}
+.debug {
+	font-size: 25px;
+	pointer-events: none;
+	color: green;
+	font-family:'Minecraft';
+	padding-top: 0px; 
+	margin-top: 0px;
+	padding-bottom: 0px; 
+	margin-bottom: 0px;
+}
+#progress {
+	border-radius: 5px; 
+	width: 50%;
+}
